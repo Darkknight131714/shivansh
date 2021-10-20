@@ -1,0 +1,68 @@
+/* #080705  #AE0972 */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0px 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color:#F316A2 ;
+    font-family: 'Ubuntu',sans-serif;
+    padding: 15px;
+    padding-left: 0px;
+    height: 13vh;
+}
+.navbar .max-width{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.portfolio a{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 1800;
+}
+.portfolio span{
+    font-size: 40px;
+    color:black;
+    font-weight: 1800;
+}
+
+.navbar .max-width .list li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.navbar .max-width .list li a{
+    color: #fff;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Home section designing */
+ 
+.home{
+    display: flex;
+    background: url("../images/office-865091__340.webp") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
